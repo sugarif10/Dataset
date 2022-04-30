@@ -1,0 +1,131 @@
+{
+  "name": "Methane emissions by sector (CAIT, 2020)",
+  "title": "Methane emissions by sector (CAIT, 2020)",
+  "id": 5086,
+  "description": "Methane (CH4) emissions are measured in tonnes of carbon dioxide equivalents (CO₂e), based on 100-year global warming potential factors for non-CO₂ gases.\n\nThis data is published by country and sector from the CAIT Climate Data Explorer, and downloaded from the Climate Watch Portal. Available here: https://www.climatewatchdata.org/data-explorer/historical-emissions",
+  "sources": [
+    {
+      "name": "CAIT Climate Data Explorer via. Climate Watch",
+      "dataPublishedBy": "CAIT Climate Data Explorer via. Climate Watch",
+      "link": "https://www.climatewatchdata.org/data-explorer/historical-emissions",
+      "retrievedDate": "26th May 2020",
+      "additionalInfo": "Methane (CH4) emissions are measured in tonnes of carbon dioxide equivalents (CO₂e), based on 100-year global warming potential factors for non-CO₂ gases.\n\nThis data is published by country and sector from the CAIT Climate Data Explorer, and downloaded from the Climate Watch Portal. Available here: https://www.climatewatchdata.org/data-explorer/historical-emissions"
+    }
+  ],
+  "owidTags": [
+    "CO2 and Greenhouse Gas Emissions"
+  ],
+  "resources": [
+    {
+      "path": "Methane emissions by sector (CAIT, 2020).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Agriculture (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Agriculture\", \"unit\": \"tonnes CO₂e\", \"shortUnit\": \"t\", \"conversionFactor\": 1000000, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "Energy (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Energy \", \"unit\": \"tonnes CO₂e\", \"shortUnit\": \"t\", \"conversionFactor\": 1000000, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "Fugitive Emissions (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Fugitive emissions\", \"unit\": \"tonnes CO₂e\", \"shortUnit\": \"t\", \"conversionFactor\": 1000000, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "Industry (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Industry\", \"unit\": \"tonnes CO₂e\", \"shortUnit\": \"t\", \"conversionFactor\": 1000000, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "Land-Use Change and Forestry (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Land use change and forestry\", \"unit\": \"tonnes CO₂e\", \"shortUnit\": \"t\", \"conversionFactor\": 1000000, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "Other Fuel Combustion (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Other fuel combustion\", \"unit\": \"tonnes CO₂e\", \"shortUnit\": \"t\", \"conversionFactor\": 1000000, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "Total excluding LUCF (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Total excluding land-use change and forestry\", \"unit\": \"tonnes CO₂e\", \"shortUnit\": \"t\", \"conversionFactor\": 1000000, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "Total including LUCF (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Total including land-use change and forestry\", \"unit\": \"tonnes CO₂e\", \"shortUnit\": \"t\", \"conversionFactor\": 1000000}"
+          },
+          {
+            "name": "Waste (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Waste\", \"unit\": \"tonnes CO₂e\", \"shortUnit\": \"t\", \"conversionFactor\": 1000000, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "Agriculture (per capita) (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Agriculture\", \"unit\": \"tonnes per capita\", \"shortUnit\": \"t\", \"includeInTable\": true}"
+          },
+          {
+            "name": "Fugitive Emissions (per capita) (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Fugitive emissions\", \"unit\": \"tonnes per capita\", \"shortUnit\": \"t\", \"includeInTable\": true}"
+          },
+          {
+            "name": "Industry (per capita) (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Industry\", \"unit\": \"tonnes per capita\", \"shortUnit\": \"t\", \"includeInTable\": true}"
+          },
+          {
+            "name": "Land-Use Change and Forestry (per capita) (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Land use change and forestry\", \"unit\": \"tonnes per capita\", \"shortUnit\": \"t\", \"includeInTable\": true}"
+          },
+          {
+            "name": "Total excluding LUCF (per capita) (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Total excluding land use change\", \"unit\": \"tonnes per capita\", \"shortUnit\": \"t\", \"includeInTable\": true}"
+          },
+          {
+            "name": "Total including LUCF (per capita) (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Total including land use change\", \"unit\": \"tonnes per capita\", \"shortUnit\": \"t\", \"includeInTable\": true}"
+          },
+          {
+            "name": "Waste (per capita) (CH4 emissions, CAIT)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Waste\", \"unit\": \"tonnes per capita\", \"shortUnit\": \"t\", \"includeInTable\": true}"
+          }
+        ]
+      }
+    }
+  ]
+}

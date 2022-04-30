@@ -1,0 +1,77 @@
+{
+  "name": "Human Height - NCD RisC (2017)",
+  "title": "Human Height - NCD RisC (2017)",
+  "id": 4120,
+  "description": "Mean heights of men and women aged 18 or older by birth year, extending from 1896 to 1996. ",
+  "sources": [
+    {
+      "name": "NCD RisC, Human Height (2017)",
+      "link": "http://www.ncdrisc.org/data-downloads-height.html",
+      "retrievedDate": "14/05/19",
+      "dataPublishedBy": "NCD RisC",
+      "additionalInfo": "Mean heights of men and women aged 18 or older by birth year, extending from 1896 to 1996. "
+    }
+  ],
+  "owidTags": [
+    "Human Height"
+  ],
+  "resources": [
+    {
+      "path": "Human Height - NCD RisC (2017).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Mean male height (cm)",
+            "type": "any",
+            "description": "Mean height of men aged 18 or older by birth year, extending from 1896 to 1996. ",
+            "owidDisplaySettings": "{\"unit\": \"centimeters\", \"shortUnit\": \"cm\"}"
+          },
+          {
+            "name": "Mean female height (cm)",
+            "type": "any",
+            "description": "Mean height of women aged 18 or older by birth year, extending from 1896 to 1996. ",
+            "owidDisplaySettings": "{\"unit\": \"centimeters\", \"shortUnit\": \"cm\"}"
+          },
+          {
+            "name": "Male-to-female height ratio",
+            "type": "any",
+            "description": "The ratio between the mean height of adult men and women, by birth year. Values greater than 1 indicate the mean height of men\nis greater than that of women.",
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "Change in male height (cm)",
+            "type": "any",
+            "description": "Absolute difference between mean male height between 1896 and 1996.",
+            "owidDisplaySettings": "{\"unit\": \"centimeters\", \"shortUnit\": \"cm\"}"
+          },
+          {
+            "name": "Change in female height (cm)",
+            "type": "any",
+            "description": "Absolute difference between mean female height between 1896 and 1996.",
+            "owidDisplaySettings": "{\"unit\": \"centimeters\", \"shortUnit\": \"cm\"}"
+          },
+          {
+            "name": "Change in male height (%)",
+            "type": "any",
+            "description": "Percentage difference in mean male height between 1896 and 1996.",
+            "owidDisplaySettings": "{\"unit\": \"%\", \"shortUnit\": \"%\"}"
+          },
+          {
+            "name": "Change in female height (%)",
+            "type": "any",
+            "description": "Percentage difference in mean male height between 1896 and 1996.",
+            "owidDisplaySettings": "{\"unit\": \"%\", \"shortUnit\": \"%\"}"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Number of tourist departures per 1000 - World Bank & UN (2019)",
+  "title": "Number of tourist departures per 1000 - World Bank & UN (2019)",
+  "id": 4161,
+  "description": "Number of tourist departures per 1000 was derived based on the number of departures per year, divided by population figures from the World Bank's World Development Indicators (WDI).\n\nNumber of tourist departures sourced from the World Bank's World Development Indicators (WDI). Available at: https://data.worldbank.org/indicator/ST.INT.DPRT.\n\nPopulation data sourced from the World Bank's World Development Indicators (WDI); figures were divided by 1000. Available at: https://databank.worldbank.org/indicator/SP.POP.TOTL/1ff4a498/Popular-Indicators.",
+  "sources": [
+    {
+      "name": "World Bank, World Development Indicators (2019)",
+      "link": "https://data.worldbank.org/indicator/ST.INT.DPRT and https://databank.worldbank.org/indicator/SP.POP.TOTL/1ff4a498/Popular-Indicators",
+      "retrievedDate": "08/07/19",
+      "dataPublishedBy": "World Bank",
+      "dataPublisherSource": "World Tourism Organization, Yearbook of Tourism Statistics, Compendium of Tourism Statistics, United Nations Population Division. World Population Prospects: 2019 Revision. Census reports and other statistical publications from national statistical offices, Eurostat: Demographic Statistics, United Nations Statistical Division. Population and Vital Statistics Reprot (various years), U.S. Census Bureau: International Database, and Secretariat of the Pacific Community: Statistics and Demography Programme.",
+      "additionalInfo": "Number of tourist departures per 1000 was derived based on the number of departures per year, divided by population figures from the World Bank's World Development Indicators (WDI).\n\nNumber of tourist departures sourced from the World Bank's World Development Indicators (WDI). Available at: https://data.worldbank.org/indicator/ST.INT.DPRT.\n\nPopulation data sourced from the World Bank's World Development Indicators (WDI); figures were divided by 1000. Available at: https://databank.worldbank.org/indicator/SP.POP.TOTL/1ff4a498/Popular-Indicators."
+    }
+  ],
+  "owidTags": [
+    "Tourism"
+  ],
+  "resources": [
+    {
+      "path": "Number of tourist departures per 1000 - World Bank & UN (2019).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Number of departures (per 1000 people)",
+            "type": "any",
+            "description": "International outbound tourists are the number of departures that people make from their country of usual residence to any other country for any purpose other than a remunerated activity in the country visited. The data on outbound tourists refer to the number of departures, not to the number of people traveling. Thus a person who makes several trips from a country during a given period is counted each time as a new departure. This figure is given per 1000 people.",
+            "owidDisplaySettings": "{}"
+          }
+        ]
+      }
+    }
+  ]
+}

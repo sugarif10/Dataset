@@ -1,0 +1,353 @@
+{
+  "name": "Biodiversity habitat loss (Williams et al. 2021)",
+  "title": "Biodiversity habitat loss (Williams et al. 2021)",
+  "id": 5311,
+  "description": "Projected species' habitat loss is projected to 2050 under a business-as-usual, plus five intervention scenarios with changes to diets or agricultural production.\n\nBusiness-as-usual: This assumes population growth from UN medium projections; crop yield increases in line with historical rates of improvement; and dietary changes in line with projected rises in income.\n\nClosing yield gaps: Yields increase linearly from current yields to 80% of the estimated maximum potential by 2050. Increasing yields above 80% is rarely achieved over large areas.\n\nHalve food waste: consumer food waste and food losses in supply chains are reduced by 25% by 2030 and 50% by 2050.\n\nHealthier diets: Diets transition to the EAT-Lancet diet which is in line with healthy calorie and nutritional requirements. For richer countries this would mean a reduction (but not elimination) of meat consumption. For poorer countries, this would mean an increase.\n\nOptimize trade: agricultural production and trade is optimized to produce food in the locations with the least risk of habitat loss. Agricultural production shifts from the 25 countries projected to have the greatest mean losses of suitable habitat across all species to countries where less than 10% of species are threatened with extinction.\n\nCombined: all four interventions are combined.",
+  "sources": [
+    {
+      "name": "Williams, Clark, Buchanan, Ficetola, Rondinini, & Tilman (2021). Proactive conservation to prevent habitat losses to agricultural expansion. Nature Sustainability.",
+      "link": "https://www.nature.com/articles/s41893-020-00656-5",
+      "additionalInfo": "Projected species' habitat loss is projected to 2050 under a business-as-usual, plus five intervention scenarios with changes to diets or agricultural production.\n\nBusiness-as-usual: This assumes population growth from UN medium projections; crop yield increases in line with historical rates of improvement; and dietary changes in line with projected rises in income.\n\nClosing yield gaps: Yields increase linearly from current yields to 80% of the estimated maximum potential by 2050. Increasing yields above 80% is rarely achieved over large areas.\n\nHalve food waste: consumer food waste and food losses in supply chains are reduced by 25% by 2030 and 50% by 2050.\n\nHealthier diets: Diets transition to the EAT-Lancet diet which is in line with healthy calorie and nutritional requirements. For richer countries this would mean a reduction (but not elimination) of meat consumption. For poorer countries, this would mean an increase.\n\nOptimize trade: agricultural production and trade is optimized to produce food in the locations with the least risk of habitat loss. Agricultural production shifts from the 25 countries projected to have the greatest mean losses of suitable habitat across all species to countries where less than 10% of species are threatened with extinction.\n\nCombined: all four interventions are combined.",
+      "dataPublishedBy": "Williams, D. R., Clark, M., Buchanan, G. M., Ficetola, G. F., Rondinini, C., & Tilman, D. (2021). Proactive conservation to prevent habitat losses to agricultural expansion. Nature Sustainability, 4(4), 314-322."
+    }
+  ],
+  "owidTags": [
+    "Land Use",
+    "Biodiversity"
+  ],
+  "resources": [
+    {
+      "path": "Biodiversity habitat loss (Williams et al. 2021).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "all_species_number",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "bau_habitat_loss_all",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "combined_habitat_loss_all",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "diets_habitat_loss_all",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "waste_habitat_loss_all",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "trade_habitat_loss_all",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "yields_habitat_loss_all",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "amphibian_species_number",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "bau_habitat_loss_amphibians",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "combined_habitat_loss_amphibians",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "diets_habitat_loss_amphibians",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "waste_habitat_loss_amphibians",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "trade_habitat_loss_amphibians",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "yields_habitat_loss_amphibians",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "bird_species_number",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "bau_habitat_loss_birds",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "combined_habitat_loss_birds",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "diets_habitat_loss_birds",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "waste_habitat_loss_birds",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "trade_habitat_loss_birds",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "yields_habitat_loss_birds",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "mammal_species_number",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "bau_habitat_loss_mammals",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "combined_habitat_loss_mammals",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "diets_habitat_loss_mammals",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "waste_habitat_loss_mammals",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "trade_habitat_loss_mammals",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "yields_habitat_loss_mammals",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "bau_change_cropland_km2",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "combined_change_cropland_km2",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "diets_change_cropland_km2",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "yields_change_cropland_km2",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "waste_change_cropland_km2",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "trade_change_cropland_km2",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "countries_losing_25_species",
+            "type": "any",
+            "description": "The number of species at risk of losing greater than 25% of their habitat as a result of agricultural expansion under business-as-usual projections. This is shown for countries with more than 25 species at risk.",
+            "owidDisplaySettings": "{\"name\": \"Countries with more than 25 species at risk of losing more than 25% of habitat\", \"unit\": \"species\", \"includeInTable\": true}"
+          },
+          {
+            "name": "bau_change_pct",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "combined_change_pct",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "diets_change_pct",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "yields_change_pct",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "waste_change_pct",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "trade_change_pct",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "species_losing_more_25pct",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "species_losing_more_50pct",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "species_losing_more_75pct",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "species_losing_more_90pct",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "species_losing_more_25pct_yields",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "species_losing_more_50pct_yields",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "species_losing_more_75pct_yields",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "species_losing_more_90pct_yields",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "species_losing_more_25pct_combined",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "species_losing_more_50pct_combined",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "species_losing_more_75pct_combined",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "species_losing_more_90pct_combined",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          }
+        ]
+      }
+    }
+  ]
+}

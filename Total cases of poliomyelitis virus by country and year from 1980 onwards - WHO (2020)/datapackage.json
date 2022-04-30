@@ -1,0 +1,42 @@
+{
+  "name": "Total cases of poliomyelitis virus by country and year from 1980 onwards - WHO (2020)",
+  "title": "Total cases of poliomyelitis virus by country and year from 1980 onwards - WHO (2020)",
+  "id": 915,
+  "description": "The WHO link above has the dataset saved under point \"3.1 Reported incidence time series\". The WHO last updated this dataset on 15 July 2020 which comprises the data shown here.",
+  "sources": [
+    {
+      "name": "World Health Organization (WHO)",
+      "dataPublishedBy": "World Health Organization (2020)",
+      "dataPublisherSource": "UNICEF and WHO's Joint Reporting Form (JRP) on Immunization, Vaccines and Biologicals (further explanations here: http://www.who.int/immunization/monitoring_surveillance/routine/reporting/en/)",
+      "link": "http://www.who.int/immunization/monitoring_surveillance/data/en/",
+      "retrievedDate": "15th July 2020",
+      "additionalInfo": "The WHO link above has the dataset saved under point \"3.1 Reported incidence time series\". The WHO last updated this dataset on 15 July 2020 which comprises the data shown here."
+    }
+  ],
+  "owidTags": [
+    "Eradication of Diseases"
+  ],
+  "resources": [
+    {
+      "path": "Total cases of poliomyelitis virus by country and year from 1980 onwards - WHO (2020).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Number of polio cases (WHO (2017))",
+            "type": "any",
+            "description": "Number of poliomyelitis virus cases (includes both the wild and VAPP types of polio, as well as both indigenous and imported from other countries types of polio)",
+            "owidDisplaySettings": "{}"
+          }
+        ]
+      }
+    }
+  ]
+}
